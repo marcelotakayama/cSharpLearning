@@ -9,6 +9,20 @@ namespace PrimeiroProjeto {
         public double Preco;
         public int Quantidade;
 
+
+        public Produto() {
+        }
+
+        public Produto(string nome, double preco) {
+            Nome = nome;
+            Preco = preco;
+        }
+
+
+
+        /*
+        public Produto() {
+        }
         public Produto(string nome, double preco, int quantidade) {
             Nome = nome;
             Preco = preco;
@@ -20,6 +34,7 @@ namespace PrimeiroProjeto {
             Preco = preco;
             Quantidade = 5;
         }
+        */
 
         public double ValorTotalEmEstoque() {
             return Preco * Quantidade;

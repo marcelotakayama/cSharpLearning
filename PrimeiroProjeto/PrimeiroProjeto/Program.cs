@@ -4,15 +4,13 @@ using System.Globalization;
 namespace PrimeiroProjeto {
     class Program {
         static void Main(string[] args) {
-            int idade = 32;
-            string nome = "Maria";
-            double saldo = 10.35784;
-
-            Console.WriteLine("{0} tem {1} anos e tem saldo igual a {2:F2} reais", nome, idade, saldo);
-
-            Console.WriteLine($"{nome} tem {idade} anos e tem saldo igual a {saldo:F2} reais");
-
-            Console.WriteLine(nome + " tem " + idade + " anos e tem saldo igual a " + saldo.ToString("F2", CultureInfo.InvariantCulture) + " reais ");
+            Console.WriteLine("Digite um número inteiro: ");
+            int x = int.Parse(Console.ReadLine());
+            if(x % 2 == 0) {
+                Console.WriteLine("Par");
+            } else {
+                Console.WriteLine("Ímpar");
+            }
         }
     }
 }

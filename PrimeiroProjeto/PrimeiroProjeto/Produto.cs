@@ -15,6 +15,12 @@ namespace PrimeiroProjeto {
             Quantidade = quantidade;
         }
 
+        public Produto(string nome, double preco) {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = 5;
+        }
+
         public double ValorTotalEmEstoque() {
             return Preco * Quantidade;
         }

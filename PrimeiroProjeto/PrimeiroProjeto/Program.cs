@@ -7,6 +7,13 @@ namespace PrimeiroProjeto {
             double? x = null;
             double? y = 10.0;
 
+            double a = x ?? 5;
+            double b = y ?? 5;
+
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+
+            /*
             Console.WriteLine(x.GetValueOrDefault());
             Console.WriteLine(y.GetValueOrDefault());
 
@@ -22,6 +29,7 @@ namespace PrimeiroProjeto {
                 Console.WriteLine(y.Value);
             else
                 Console.WriteLine("Y is null");
+            */
         }
     }
 }

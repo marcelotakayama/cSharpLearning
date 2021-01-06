@@ -9,7 +9,6 @@ namespace PrimeiroProjeto {
         private double _preco;
         private int _quantidade;
 
-
         public Produto() {
             _quantidade = 10;
         }
@@ -23,22 +22,21 @@ namespace PrimeiroProjeto {
             _quantidade = quantidade;
         }
 
-        public string GetNome() {
-            return _nome;
-        }
-
-        public void SetNome(string nome) {
-            if (nome != null && nome.Length > 1) {
-                _nome = nome;
+        public string Nome {
+            get { return _nome; }
+            set {
+                if (value != null && value.Length > 1) {
+                    _nome = value;
+                }
             }
         }
 
-        public double GetPreco() {
-            return _preco;
+        public double Preco {
+            get { return _preco; }
         }
 
-        public int GetQuantidade() {
-            return _quantidade;
+        public int Quantidade {
+            get { return _quantidade; }
         }
 
         public double ValorTotalEmEstoque() {

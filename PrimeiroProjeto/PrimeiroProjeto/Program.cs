@@ -9,11 +9,11 @@ namespace PrimeiroProjeto {
         static void Main(string[] args) {
             Produto p = new Produto("TV", 900, 10);
 
-            p.SetNome("TV 4K");
+            p.Nome = ("TV 4K");
 
-            Console.WriteLine(p.GetNome());
-            Console.WriteLine(p.GetPreco());
-            Console.WriteLine(p.GetQuantidade());
+            Console.WriteLine(p.Nome);
+            Console.WriteLine(p.Preco);
+            Console.WriteLine(p.Quantidade);
         }
     }
 }

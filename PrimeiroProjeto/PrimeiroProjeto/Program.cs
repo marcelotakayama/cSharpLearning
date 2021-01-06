@@ -7,33 +7,13 @@ namespace PrimeiroProjeto {
         
         
         static void Main(string[] args) {
-            Console.WriteLine("Digite os dados do produto: ");
-            Console.Write("Nome: ");
-            string nome = Console.ReadLine();
-            Console.Write("Preço: ");
-            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Produto p = new Produto("TV", 900, 10);
 
-            Produto p = new Produto(nome, preco);            
+            p.SetNome("TV 4K");
 
-            Produto p2 = new Produto();
-
-            Produto p3 = new Produto {
-                Nome = "TV",
-                Preco = 500.00,
-                Quantidade = 20
-            };
-
-            Console.WriteLine("Dados do produto: " + p);
-
-            Console.Write("Digite o número de produtos a serem adicionados no estoque: ");
-            int qte = int.Parse(Console.ReadLine());
-            p.AdicionarProdutos(qte);
-            Console.WriteLine("\nDados atualizados: " + p);
-
-            Console.Write("Digite o número de produtos a serem removidos no estoque: ");
-            qte = int.Parse(Console.ReadLine());
-            p.RemoverProdutos(qte);
-            Console.WriteLine("\nDados atualizados: " + p);
+            Console.WriteLine(p.GetNome());
+            Console.WriteLine(p.GetPreco());
+            Console.WriteLine(p.GetQuantidade());
         }
     }
 }

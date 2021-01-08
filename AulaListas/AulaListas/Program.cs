@@ -24,9 +24,9 @@ namespace AulaListas {
 
             string s1 = list.Find(x => x[0] == 'A');
             Console.WriteLine("First 'A': " + s1);
+
+            string s2 = list.FindLast(x => x[0] == 'A');
+            Console.WriteLine("Last 'A': " + s2);
         }
-        //static bool Test(string s) {
-        //    return s[0] == 'A';
-        //}
     }
 }

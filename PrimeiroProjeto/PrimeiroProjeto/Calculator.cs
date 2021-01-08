@@ -6,7 +6,7 @@ namespace PrimeiroProjeto {
     class Calculator {
         public static void Triple(int origin, out int result) {
             //teste
-            result = origin;
+            result = origin * 3;
         }
     }
 }

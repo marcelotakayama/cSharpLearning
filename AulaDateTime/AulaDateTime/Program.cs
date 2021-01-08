@@ -12,7 +12,9 @@ namespace AulaDateTime {
             DateTime d3 = new DateTime(2021, 1, 8, 17, 36, 12);
             DateTime d4 = new DateTime(2021, 1, 8, 17, 36, 12, 500);
 
-            DateTime d5 = new DateTime.Now;
+            DateTime d5 = DateTime.Now;
+            DateTime d6 = DateTime.Today;
+            DateTime d7 = DateTime.UtcNow;
 
 
 
@@ -20,6 +22,10 @@ namespace AulaDateTime {
             Console.WriteLine(d1);
             Console.WriteLine(d2);
             Console.WriteLine(d3);
+            Console.WriteLine(d4);
+            Console.WriteLine(d5);
+            Console.WriteLine(d6);
+            Console.WriteLine(d7);
         }
     }
 }

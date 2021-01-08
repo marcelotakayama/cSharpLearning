@@ -22,12 +22,12 @@ namespace AulaDateTime {
             DateTime d12 = DateTime.ParseExact("2000-08-15", "yyyy-MM-dd", CultureInfo.InvariantCulture);
             DateTime d13 = DateTime.ParseExact("15/08/2000 13:05:58",  "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture);
 
+            //teste
             Console.WriteLine(d1.Ticks);
             Console.WriteLine(d1);
             Console.WriteLine(d2);
             Console.WriteLine(d3);
             Console.WriteLine(d4);
-            //teste5
             Console.WriteLine(d5);
             Console.WriteLine(d6);
             Console.WriteLine(d7);

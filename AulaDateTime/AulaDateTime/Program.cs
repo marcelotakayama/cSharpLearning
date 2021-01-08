@@ -20,6 +20,7 @@ namespace AulaDateTime {
             DateTime d10 = DateTime.Parse("15/08/2000");
             DateTime d11 = DateTime.Parse("15/08/2000 13:05:58");
             DateTime d12 = DateTime.ParseExact("2000-08-15", "yyyy-MM-dd", CultureInfo.InvariantCulture);
+            DateTime d13 = DateTime.ParseExact("15/08/2000 13:05:58",  "dd/MM/yyyy HH:mm:ss", CultureInfo.InvariantCulture);
 
             Console.WriteLine(d1.Ticks);
             Console.WriteLine(d1);
@@ -33,6 +34,8 @@ namespace AulaDateTime {
             Console.WriteLine(d9);
             Console.WriteLine(d10);
             Console.WriteLine(d11);
+            Console.WriteLine(d12);
+            Console.WriteLine(d13);
         }
     }
 }

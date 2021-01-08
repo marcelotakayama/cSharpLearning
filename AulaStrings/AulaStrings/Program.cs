@@ -22,6 +22,7 @@ namespace AulaStrings {
             string s7 = original.Replace("abc", "xy");
 
             bool b1 = String.IsNullOrEmpty(original);
+            bool b2 = String.IsNullOrWhiteSpace(original);
 
             Console.WriteLine("Original: -"+ original + "-");
             Console.WriteLine("To Upper: -"+ s1 + "-");
@@ -34,6 +35,7 @@ namespace AulaStrings {
             Console.WriteLine("Replace('a', 'x'): "+ s6 );
             Console.WriteLine("Replace('abc', 'xy'): "+ s7 );
             Console.WriteLine("IsNullOrEmpty: "+ b1 );
+            Console.WriteLine("IsNullOrWhiteSepace: "+ b2 );
         }
     }
 }

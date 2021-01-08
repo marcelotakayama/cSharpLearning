@@ -4,10 +4,16 @@ using System.Globalization;
 namespace PrimeiroProjeto {
     class Program {
         static void Main(string[] args) {
-            int a = 10;
-            int triple;
-            Calculator.Triple(a, out triple);
-            Console.WriteLine(triple);
+            string[] vect = new string[] { "Maria", "Alex", "Bob" };
+
+            for(int i = 0; i < vect.Length; i++) {
+                Console.WriteLine(vect[i]);
+            }
+            Console.WriteLine("--------------------------");
+
+            foreach(string obj in vect) {
+                Console.WriteLine(obj);
+            }
         }
     }
 }

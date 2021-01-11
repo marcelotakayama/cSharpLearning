@@ -1,0 +1,7 @@
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\ProjetoIntermediario\ProjetoIntermediario\bin\Debug\ProjetoIntermediario.exe.config
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\ProjetoIntermediario\ProjetoIntermediario\bin\Debug\ProjetoIntermediario.exe
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\ProjetoIntermediario\ProjetoIntermediario\bin\Debug\ProjetoIntermediario.pdb
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\ProjetoIntermediario\ProjetoIntermediario\obj\Debug\ProjetoIntermediario.csprojAssemblyReference.cache
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\ProjetoIntermediario\ProjetoIntermediario\obj\Debug\ProjetoIntermediario.csproj.CoreCompileInputs.cache
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\ProjetoIntermediario\ProjetoIntermediario\obj\Debug\ProjetoIntermediario.exe
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\ProjetoIntermediario\ProjetoIntermediario\obj\Debug\ProjetoIntermediario.pdb

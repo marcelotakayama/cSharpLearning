@@ -1,0 +1,7 @@
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\OperacoesTimeSpan\OperacoesTimeSpan\bin\Debug\OperacoesTimeSpan.exe.config
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\OperacoesTimeSpan\OperacoesTimeSpan\bin\Debug\OperacoesTimeSpan.exe
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\OperacoesTimeSpan\OperacoesTimeSpan\bin\Debug\OperacoesTimeSpan.pdb
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\OperacoesTimeSpan\OperacoesTimeSpan\obj\Debug\OperacoesTimeSpan.csprojAssemblyReference.cache
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\OperacoesTimeSpan\OperacoesTimeSpan\obj\Debug\OperacoesTimeSpan.csproj.CoreCompileInputs.cache
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\OperacoesTimeSpan\OperacoesTimeSpan\obj\Debug\OperacoesTimeSpan.exe
+C:\Users\mntakayama\Documents\repos\.net\clones\cSharpLearning\OperacoesTimeSpan\OperacoesTimeSpan\obj\Debug\OperacoesTimeSpan.pdb

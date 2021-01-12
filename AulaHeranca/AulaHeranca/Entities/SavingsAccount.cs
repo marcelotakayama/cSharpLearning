@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AulaHeranca.Entities {
-    sealed class SavingsAccount : Account {
+    class SavingsAccount : Account {
         public double InterestRate { get; set; }
 
         public SavingsAccount() {
@@ -20,7 +20,7 @@ namespace AulaHeranca.Entities {
             Balance += Balance * InterestRate;
         }
 
-        public override void Withdraw(double amount) {
+        public sealed override void Withdraw(double amount) {
             base.Withdraw(amount);
             Balance -= 2.0;
         }

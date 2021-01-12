@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace AulaHeranca.Entities {
-    class SavingsAccount : Account {
+    sealed class SavingsAccount : Account {
         public double InterestRate { get; set; }
 
         public SavingsAccount() {

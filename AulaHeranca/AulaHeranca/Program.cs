@@ -22,6 +22,17 @@ namespace AulaHeranca {
             }
 
             Console.WriteLine("Total Balance: "+ sum.ToString("F2", CultureInfo.InvariantCulture));
+
+            foreach (Account acc in list) {
+                acc.Withdraw(10.0);
+            }
+
+            foreach(Account acc in list) {
+                Console.WriteLine("Updated balance for account "
+                    + acc.Number
+                    + ": "
+                    + acc.Balance.ToString("F2", CultureInfo.InvariantCulture));
+            }
         }
     }
 }

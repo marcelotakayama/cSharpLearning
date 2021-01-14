@@ -24,6 +24,11 @@ namespace ExcecoesPersonalizadas.Entities {
             return (int)duration.TotalDays;
         }
 
+        public void updateDates(DateTime checkIn, DateTime checkOut) {
+            CheckIn = checkIn;
+            CheckOut = checkOut;
+        }
+
         public override string ToString() {
             return "Room "
                 + RoomNumber

@@ -30,7 +30,7 @@ namespace ExcecoesPersonalizadas.Entities {
                 + ", check-in: "
                 + CheckIn.ToString("dd/MM/yyyy")
                 + ", check-out: "
-                + CheckOut.ToString("dd/MM/yyyy")
+                + CheckOut.ToString("dd/MM/yyyy, ")
                 + Duration()
                 + " Nights";
         }

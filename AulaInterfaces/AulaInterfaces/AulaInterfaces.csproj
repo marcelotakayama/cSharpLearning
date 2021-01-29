@@ -48,6 +48,8 @@
     <Compile Include="Entities\Vehicule.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BrazilTaxService.cs" />
+    <Compile Include="Services\RentalService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
